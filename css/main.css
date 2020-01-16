@@ -1,5 +1,5 @@
 html {
-  font-family: "ten-oldstyle" , serif;
+  font-family: ten-oldstyle , serif;
 font-weight: 400;
 font-style: normal;
 }
@@ -10,10 +10,18 @@ a {
   text-decoration: none;
 }
 
-h1 {
+h1, h2, p {
   text-align: center;
 }
 
 .recipes {
   border-radius: 50%;
+}
+
+.hover {
+  filter: opacity(100%);
+}
+
+.hover:hover {
+  filter: opacity(100%);
 }
