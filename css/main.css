@@ -1,7 +1,5 @@
 html {
   font-family: ten-oldstyle , serif;
-font-weight: 400;
-font-style: normal;
 }
 
 a {
@@ -16,6 +14,10 @@ h1, h2 {
 
 h1, h2 {
   text-align: center;
+}
+
+h3 {
+  font-family: novel-display,sans-serif;
 }
 
 footer {
