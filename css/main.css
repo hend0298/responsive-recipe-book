@@ -1,1 +1,19 @@
+html {
+  font-family: "ten-oldstyle" , serif;
+font-weight: 400;
+font-style: normal;
+}
 
+a {
+  color: #000;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.recipes {
+  border-radius: 50%;
+}
