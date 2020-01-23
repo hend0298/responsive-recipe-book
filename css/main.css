@@ -1,5 +1,5 @@
 html {
-  font-family: ten-oldstyle , serif;
+  font-family: ten-oldstyle, serif;
 }
 
 a {
@@ -10,14 +10,11 @@ a {
 
 h1, h2 {
   font-family: rumba, sans-serif;
-}
-
-h1, h2 {
   text-align: center;
 }
 
 h3 {
-  font-family: novel-display,sans-serif;
+  font-family: novel-display, sans-serif;
 }
 
 footer {
