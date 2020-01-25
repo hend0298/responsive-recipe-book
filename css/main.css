@@ -17,7 +17,7 @@ h1, h2 {
   text-align: left;
 }
 
-h3 {
+h3, .btn {
   font-family: novel-display, sans-serif;
 }
 
@@ -30,6 +30,10 @@ footer {
   border-radius: 50%;
 }
 
+.btn {
+  border-radius: 15px;
+}
+
 .hover {
   filter: opacity(100%);
 }
@@ -38,12 +42,15 @@ footer {
   filter: opacity(100%);
 }
 
-.border-bottom {
+.border-bottom, .banner {
   border-bottom: 1px solid #000;
 }
 
-
 @media only screen and (min-width: 38em) {
+
+  .banner {
+    border-bottom: none;
+  }
 
   .action {
     top: 5em;
