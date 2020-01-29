@@ -73,7 +73,6 @@ footer {
   background-color: #000;
   color: #fff;
   border-radius: 15px;
-
 }
 
 .border-bottom, .banner {
@@ -113,8 +112,8 @@ footer {
 @media only screen and (min-width: 90em) {
 
   .action {
-    top: 19em;
-    left: 40em;
+    top: 23em;
+    left: 48em;
   }
 
 }
