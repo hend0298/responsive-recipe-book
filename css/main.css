@@ -8,6 +8,34 @@ a {
   text-decoration: none;
 }
 
+p {
+  max-width: 28em;
+}
+
+.linzer {
+  max-width: 28em;
+}
+
+.brandy {
+  max-width: 23em;
+}
+
+.biscotti {
+  max-width: 18em;
+}
+
+.chocolate {
+  max-width: 29em;
+}
+
+.chip {
+  max-width: 27em;
+}
+
+.footer {
+  max-width: none;
+}
+
 h1, h2 {
   font-family: rumba, sans-serif;
   text-align: center;
@@ -30,32 +58,23 @@ footer {
   border-radius: 50%;
 }
 
-.btn {
+.btn-ghost {
   border-radius: 15px;
+  border-color: #000;
+  color: #000;
 }
 
-.hover-box img {
-  display: block;
-}
-
-.hover-box h3 {
-  top: 257px;
-  bottom: 257px;
-  left: 257px;
-  right: 257px;
-  border-radius: 50%;
-  text-align: center;
+.btn-ghost:hover {
+  background-color: #000;
   color: #fff;
-  transform: scale(0);
-  transition: all 200ms ease-out;
-  background-color: rgba(1, 1, 1, .5);
 }
 
-.hover-box:hover h3 {
-  transform: scale(1);
+.nav a:hover {
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+
 }
-
-
 
 .border-bottom, .banner {
   border-bottom: 1px solid #000;
@@ -65,6 +84,8 @@ footer {
 
   .banner {
     border-bottom: none;
+    position: absolute;
+    padding: .5em;
   }
 
   .action {
@@ -76,11 +97,6 @@ footer {
   .banner-content {
     position: relative;
     border: none;
-  }
-
-  .banner {
-    position: absolute;
-    padding: .5em;
   }
 
 }
