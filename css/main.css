@@ -8,9 +8,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  max-width: 28em;
-}
 
 .linzer {
   max-width: 28em;
@@ -62,6 +59,13 @@ footer {
   border-radius: 15px;
   border-color: #000;
   color: #000;
+}
+
+.max {
+  max-width: 20em;
+  text-align: left;
+  align-content: center;
+
 }
 
 .btn-ghost:hover {
