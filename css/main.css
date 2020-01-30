@@ -8,7 +8,6 @@ a {
   text-decoration: none;
 }
 
-
 .linzer {
   max-width: 28em;
 }
@@ -42,7 +41,7 @@ h1, h2 {
   text-align: left;
 }
 
-h3, .btn, .ingredients {
+h3, .btn, .ingredients, .linzer, .brandy, .biscotti, .chocolate, .chip {
   font-family: novel-display, sans-serif;
 }
 
@@ -81,6 +80,10 @@ footer {
 
 .border-bottom, .banner {
   border-bottom: 1px solid #000;
+}
+
+.prep {
+  max-width: 28em;
 }
 
 @media only screen and (min-width: 38em) {
